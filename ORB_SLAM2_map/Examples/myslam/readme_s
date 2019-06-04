@@ -1,0 +1,21 @@
+clion
+
+./myvideo -v=../navinfo_park_maker_ipm.avi -w=640 -h=360 -voc=../../../Vocabulary/ORBvoc.txt  -p=../myvideo_p.yaml -rp=false
+
+
+
+
+./myvideo -v=../1.avi -w=1280 -h=720 -voc=../../../Vocabulary/ORBvoc.txt  -p=../myvideo.yaml
+./myvideo -v=../myvideo.mp4 -w=1280 -h=720 -voc=../../../Vocabulary/ORBvoc.txt  -p=../myvideo.yaml
+
+
+./myvideo -v=../saveFileName.avi -w=1280 -h=720 -voc=../../../Vocabulary/ORBvoc.txt  -p=../myvideo.yaml -rp=false
+
+
+./myslam -c=0 -w=1280 -h=720 -voc=../../../Vocabulary/ORBvoc.txt  -p=../myslam.yaml
+
+
+        https://blog.csdn.net/ganbaoni9yang/article/details/83956999
+#include <Eigen/Dense>//s
+#include <Eigen/Core>
+#include<Eigen/StdVector> //s
